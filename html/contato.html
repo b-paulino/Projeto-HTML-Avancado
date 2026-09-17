@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="content-language" content="pt-br">
+<meta name="author" content="Aluno do 2º período">
+<meta name="keywords" content="valorant, agentes, mapas, armas, jogos">
+<meta name="description" content="Formulário de contato e opinião sobre o site de VALORANT.">
+<title>VALORANT - Contato</title>
+</head>
+<body>
+<header>
+<h1>VALORANT - Contato</h1>
+<nav>
+<a href="index.html">Início</a> |
+<a href="sobre.html">Sobre</a> |
+<a href="agentes.html">Agentes</a> |
+<a href="duelistas.html">Duelistas</a> |
+<a href="iniciadores.html">Iniciadores</a> |
+<a href="controladores.html">Controladores</a> |
+<a href="sentinelas.html">Sentinelas</a> |
+<a href="mapas.html">Mapas</a> |
+<a href="armas.html">Armas</a> |
+<a href="modos.html">Modos</a> |
+<a href="lore.html">Lore</a> |
+<a href="contato.html">Contato</a>
+</nav>
+<hr>
+</header>
+<main>
+
+<section>
+<h2>Formulário de contato</h2>
+<form>
+<fieldset>
+<legend>Dados do visitante</legend>
+
+<label for="nome">Nome:</label><br>
+<input type="text" id="nome" name="nome" placeholder="Digite seu nome" required><br><br>
+
+<label for="email">E-mail:</label><br>
+<input type="email" id="email" name="email" placeholder="exemplo@email.com" required><br><br>
+
+<label for="data">Data:</label><br>
+<input type="date" id="data" name="data" required><br><br>
+
+<label for="agente">Agente favorito:</label><br>
+<input list="agentes" id="agente" name="agente" placeholder="Digite ou escolha um agente">
+<datalist id="agentes">
+<option value="Jett">
+<option value="Sage">
+<option value="Sova">
+<option value="Omen">
+<option value="Raze">
+</datalist><br><br>
+
+<label for="cor">Escolha uma cor:</label><br>
+<input type="color" id="cor" name="cor"><br><br>
+
+<label for="nota">Quanto você gostou do site?</label><br>
+<input type="range" id="nota" name="nota" min="0" max="10"><br><br>
+
+<label for="arquivo">Enviar uma imagem:</label><br>
+<input type="file" id="arquivo" name="arquivo"><br><br>
+
+<label for="modo">Modo de jogo favorito:</label><br>
+<select id="modo" name="modo">
+<option value="competitivo">Competitivo</option>
+<option value="sem-classificacao">Sem Classificação</option>
+<option value="disputa-spike">Disputa da Spike</option>
+<option value="personalizada">Personalizada</option>
+</select><br><br>
+
+<label>Você costuma jogar com amigos?</label><br>
+<input type="radio" id="sim" name="amigos" value="sim">
+<label for="sim">Sim</label>
+<input type="radio" id="nao" name="amigos" value="nao">
+<label for="nao">Não</label><br><br>
+
+<label for="mensagem">Mensagem:</label><br>
+<textarea id="mensagem" name="mensagem" rows="5" cols="40" placeholder="Digite sua opinião"></textarea><br><br>
+
+<input type="submit" value="Enviar">
+<input type="reset" value="Limpar">
+</fieldset>
+</form>
+</section>
+<aside><p>Este formulário é apenas demonstrativo. Não há sistema de recebimento dos dados.</p></aside>
+
+</main>
+<footer>
+<hr>
+<p>Projeto acadêmico de HTML Avançado - VALORANT</p>
+</footer>
+</body>
+</html>
